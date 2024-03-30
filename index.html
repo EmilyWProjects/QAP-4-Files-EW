@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motel Customer Profile</title>
+
+</head>
+
+<body>
+
+<h1>Motel Customer Profile</h1>
+
+<p id="motel"></p>
+
+<script>
+
+const person = {
+  firstName: "Emil",
+  lastName: "Woodford",
+  birthDate: "1994/01/30",
+  gender: "male",
+  paymentMethod: "cash",
+};
+
+document.getElementById("motel").innerHTML = 
+person.firstName + " " + person.lastName + 
+" is staying at the Rosebud motel up the creek while away on a long vacation and he decided to pay for his stay in " 
++ person.paymentMethod + ". " + "He was born on " + person.birthDate + " and he identifies as " + person.gender + ".";
+
+</script>
+
+</body>
+
+</html>
